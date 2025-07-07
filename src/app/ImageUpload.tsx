@@ -61,7 +61,8 @@ export default function ImageUpload({ onImageSelected }: ImageUploadProps) {
         <span className="text-gray-400 text-lg text-center">
           Drag & drop a JPEG or PNG image here,
           <br />
-          or click to select
+          or click to select <br />
+          or paste copied image
         </span>
       )}
       {error && <div className="text-red-500 mt-2 text-sm">{error}</div>}
