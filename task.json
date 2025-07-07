@@ -1,0 +1,71 @@
+[
+  {
+    "step": 1,
+    "task": "Create Next.js app",
+    "details": {
+      "tech": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "description": "Initialize a Next.js project with TypeScript support and Tailwind CSS configured for styling."
+    }
+  },
+  {
+    "step": 2,
+    "task": "Implement responsive dashboard layout",
+    "details": {
+      "description": "Create a fully responsive dashboard that works on desktop, tablet, and mobile screens.",
+      "elements": [
+        "Main heading at the top (e.g., 'OCR Text Extractor')",
+        "Image upload section below the heading"
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "task": "Add image upload functionality",
+    "details": {
+      "description": "Allow users to upload images via drag-and-drop or file picker.",
+      "supportedFormats": ["JPEG", "PNG"]
+    }
+  },
+  {
+    "step": 4,
+    "task": "Add 'Extract Text' button",
+    "details": {
+      "description": "Place a button under the image upload section to trigger text extraction.",
+      "behavior": [
+        "Disabled state when no image is uploaded",
+        "Enabled after image selection"
+      ]
+    }
+  },
+  {
+    "step": 5,
+    "task": "Implement OCR processing",
+    "details": {
+      "description": "Process the uploaded image and extract text using OCR (e.g., Tesseract.js or backend API)."
+    }
+  },
+  {
+    "step": 6,
+    "task": "Create right-side panel to display extracted text",
+    "details": {
+      "description": "After extraction, open a right-side panel that slides in.",
+      "panelContents": [
+        "Heading: 'Extracted Content'",
+        "Extracted text displayed in a readable format"
+      ]
+    }
+  },
+  {
+    "step": 7,
+    "task": "Design attractive and premium UI",
+    "details": {
+      "description": "Ensure the design looks modern, clean, and professional.",
+      "designGuidelines": [
+        "Use modern typography",
+        "Consistent and appealing color palette",
+        "Well-balanced spacing and padding",
+        "Smooth animations for panel transitions"
+      ]
+    }
+  }
+]
